@@ -61,7 +61,7 @@ jobs:
 
 ### Trouver comment activer le workflow
 
-Ce workflow est lancé sur les ayant '[Lint]' dans leur titre.
+Ce workflow est lancé sur les PR ayant '[Lint]' dans leur titre.
 
 ```yaml
 on:
@@ -92,7 +92,7 @@ Par contre, en lisant la [documentation de PyLint](https://pylint.pycqa.org/en/l
 ```toml
 [MASTER]
 
-<!-- Permet d'importer des modules du fichier courant -->
+# Permet d'importer des modules du fichier courant. Les variables d'environments ne sont pas loader a cette étape
 init-hook='import sys; import os; print(os.listdir("..")); sys.path.append(".")'
 load-plugins=my_plugin
 ```
