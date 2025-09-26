@@ -76,6 +76,8 @@ on:
  if: contains(github.event.pull_request.title, '[Lint]')
 ```
 
+![pr](./assets/egypt-pr.png)
+
 
 ### Exploit
 Ce workflow utilise PyLint pour analyser le code Python selon une liste de règles. On ne peut changer directement le fichier de configurations puisque le workflow copie celui provenant du repo original (en lecture seule).
