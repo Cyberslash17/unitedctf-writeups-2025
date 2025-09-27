@@ -6,7 +6,7 @@ Pour cette track, un repo Github read-only avec des [Github Actions workflows](h
 Chaque workflow constitue un des challenges de la track et ont tous comme but d'extraire le flag des Secrets du workflow et suit généralement l'ordre suivant:
 
 1. Trouver comment activer le workflow
-2. Trouver la faille dans le worflow
+2. Trouver la faille dans le workflow
 3. Executer l'exploit.
 
 
@@ -115,7 +115,7 @@ Puisque le message est ajouté tel-quel, on peut manipuler le titre de l'issue p
 
 Il suffit ensuite de télécharger l'archive report.txt générée par l'action pour avoir le flag.
 
-![issue](./assets/bangladesh-workflow.png)
+![workflow](./assets/bangladesh-workflow.png)
 
 ---
 ## Flag:

@@ -6,7 +6,7 @@ Pour cette track, un repo Github read-only avec des [Github Actions workflows](h
 Chaque workflow constitue un des challenges de la track et ont tous comme but d'extraire le flag des Secrets du workflow et suit généralement l'ordre suivant:
 
 1. Trouver comment activer le workflow
-2. Trouver la faille dans le worflow
+2. Trouver la faille dans le workflow
 3. Executer l'exploit.
 
 Note: Github cache les secrets et certaines transformations connue (ex. hex, base64) des logs par défault.

@@ -6,7 +6,7 @@ Pour cette track, un repo Github read-only avec des [Github Actions workflows](h
 Chaque workflow constitue un des challenges de la track et ont tous comme but d'extraire le flag des Secrets du workflow et suit généralement l'ordre suivant:
 
 1. Trouver comment activer le workflow
-2. Trouver la faille dans le worflow
+2. Trouver la faille dans le workflow
 3. Executer l'exploit.
 
 Note: Github cache les secrets et certaines transformations connue (ex. hex, base64) des logs par défault.
@@ -123,7 +123,7 @@ Ce workflow est dépendant d'un autre workflow ayant pour nom "PR Information".
 
 Le premier workflow lit un fichier créer par "PR Information" et affiche l'information dans la console.
 
-### Trouver la faille dans le worflow
+### Trouver la faille dans le workflow
 
 Puisque le workflow dépend seulement d'un workflow ayant pour nom "PR Information". Rien n'empêche de créer notre propre workflow et d'écrire ce que l'on veut dans l'archive. 
 
