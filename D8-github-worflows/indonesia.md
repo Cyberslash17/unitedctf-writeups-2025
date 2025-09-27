@@ -83,7 +83,7 @@ Par contre, Github étant créer par dessus git, certaines fonctionnalités ne s
 
 Donc la solution est la suivante:
 
-1. Créer une nouvelle branche appelée `dependabot/bob/${FLAG#flag-}`
+1. Créer une nouvelle branche appelée `dependabot/bob/${FLAG#flag-}` (`${FLAG#flag-}` lit la variable d'environmnent `FLAG` et coupe le prefix `flag-`.)
 2. Changer la branche principale du fork pour la nouvelle branche
 ![dependabot](./assets/indonesia-settings.png "Hint")
 3. Créer un nouveau commit dans la branche et changer une dependence à une version plus vieille
